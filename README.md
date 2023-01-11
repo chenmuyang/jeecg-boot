@@ -1,30 +1,30 @@
 
 
-![JEECG](https://jeecgos.oss-cn-beijing.aliyuncs.com/files/site/jeecgfengm.png "JeecgBoot低代码开发平台")
+![JEECG](https://jeecgos.oss-cn-beijing.aliyuncs.com/files/logov3.png "JeecgBoot低代码开发平台")
 
 
 
-JEECG BOOT 低代码开发平台（前后端分离版本）
+JEECG BOOT 低代码开发平台
 ===============
 
-当前最新版本： 3.2.0（发布日期：2022-04-25）
+当前最新版本： 3.4.4（发布日期：2022-11-21） 
 
 
 [![AUR](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg)](https://github.com/zhangdaiscott/jeecg-boot/blob/master/LICENSE)
 [![](https://img.shields.io/badge/Author-北京国炬软件-orange.svg)](http://www.jeecg.com)
 [![](https://img.shields.io/badge/Blog-官方博客-blue.svg)](https://jeecg.blog.csdn.net)
-[![](https://img.shields.io/badge/version-3.2.0-brightgreen.svg)](https://github.com/zhangdaiscott/jeecg-boot)
+[![](https://img.shields.io/badge/version-3.4.4-brightgreen.svg)](https://github.com/zhangdaiscott/jeecg-boot)
 [![GitHub stars](https://img.shields.io/github/stars/zhangdaiscott/jeecg-boot.svg?style=social&label=Stars)](https://github.com/zhangdaiscott/jeecg-boot)
 [![GitHub forks](https://img.shields.io/github/forks/zhangdaiscott/jeecg-boot.svg?style=social&label=Fork)](https://github.com/zhangdaiscott/jeecg-boot)
 
 
 
-项目介绍：
+项目介绍
 -----------------------------------
 
 <h3 align="center">Java Low Code Platform for Enterprise web applications</h3>
 
-JeecgBoot 是一款基于代码生成器的`低代码平台`！前后端分离架构 SpringBoot2.x，SpringCloud，Ant Design&Vue，Mybatis-plus，Shiro，JWT，支持微服务。强大的代码生成器让前后端代码一键生成，实现低代码开发!  JeecgBoot 引领新的低代码开发模式(OnlineCoding-> 代码生成器-> 手工MERGE)， 帮助解决Java项目70%的重复工作，让开发更多关注业务。既能快速提高效率，节省研发成本，同时又不失灵活性！
+JeecgBoot 是一款基于代码生成器的`低代码开发平台`！前后端分离架构 SpringBoot2.x，SpringCloud，Ant Design&Vue，Mybatis-plus，Shiro，JWT，支持微服务。强大的代码生成器让前后端代码一键生成，实现低代码开发!  JeecgBoot 引领新的低代码开发模式(OnlineCoding-> 代码生成器-> 手工MERGE)， 帮助解决Java项目70%的重复工作，让开发更多关注业务。既能快速提高效率，节省研发成本，同时又不失灵活性！
 
 JeecgBoot 提供了一系列`低代码模块`，实现在线开发`真正的零代码`：Online表单开发、Online报表、报表配置能力、在线图表设计、大屏设计、移动配置能力、表单设计器、在线设计流程、流程自动化配置、插件能力（可插拔）等等！
 
@@ -34,12 +34,62 @@ JeecgBoot 提供了一系列`低代码模块`，实现在线开发`真正的零�
 `JEECG业务流程:` 采用工作流来实现、扩展出任务接口，供开发编写业务逻辑，表单提供多种解决方案： 表单设计器、online配置表单、编码表单。同时实现了流程与表单的分离设计（松耦合）、并支持任务节点灵活配置，既保证了公司流程的保密性，又减少了开发人员的工作量。
 
 
+源码下载
+-----------------------------------
 
-| 项目名                | 说明                     | 传送门                                                                                                                                 |
-|--------------------|------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
-| `jeecg-boot`    | JAVA后台（支持微服务）        | [Github](https://github.com/jeecgboot/jeecg-boot) &nbsp;&nbsp;    [Gitee](https://gitee.com/jeecg/jeecg-boot)  |
-| `ant-design-vue-jeecg`  |Vue2版前端代码（默认与主项目一起）       |        |
-| `jeecgboot-vue3` | Vue3版前端代码 | [Github](https://github.com/jeecgboot/jeecgboot-vue3)   &nbsp;&nbsp;  [Gitee](https://gitee.com/jeecg/jeecgboot-vue3) |
+| 源码                | 源码地址                     | 
+|--------------------|------------------------|
+| 后台源码    | https://github.com/jeecgboot/jeecg-boot        |
+| 前端源码 `Vue3版` | https://github.com/jeecgboot/jeecgboot-vue3 |
+| 前端源码 `Vue2版`  |https://github.com/jeecgboot/ant-design-vue-jeecg    |
+| APP配套框架 | https://github.com/jeecgboot/jeecg-uniapp |
+
+#####  快速搭建开发环境
+
+- [通过IDEA启动前后端项目](http://doc.jeecg.com/2043874)
+- [Vue3前端项目快速启动](http://vue3.jeecg.com/2398848)
+- [Vue2前端项目快速启动](http://doc.jeecg.com/2678320)
+- [单体快速切换为微服务版](http://doc.jeecg.com/3043471)
+
+##### 项目说明
+
+| 项目名                | 说明                     | 
+|--------------------|------------------------|
+| `jeecg-boot`    | SpringBoot后台源码（支持微服务）        |
+| `jeecgboot-vue3` | Vue3+TS 新版前端源码 |
+| `ant-design-vue-jeecg`  |Vue2版 前端源码     |
+| `jeecg-uniapp` | APP开发框架，一份代码多终端适配，同时支持APP、小程序、H5 |
+| `jeecg-boot-starter` | [Stater依赖项目单独维护，点击下载](https://gitee.com/jeecg/jeecg-boot-starter) |
+| `更多开源插件` | [更多源码下载](https://github.com/jeecgboot) |
+
+
+
+技术文档
+-----------------------------------
+
+- 项目官网：  [http://www.jeecg.com](http://www.jeecg.com)
+
+- 在线演示 ：  [Vue3版本](http://boot3.jeecg.com) | [Vue2版本](http://boot.jeecg.com)  |  [敲敲云(零代码)](http://app.qiaoqiaoyun.com)
+
+- 开发文档：  [Vue3文档](http://vue3.jeecg.com) | [主项目文档](http://doc.jeecg.com) 
+
+- 新手指南： [快速入门](http://www.jeecg.com/doc/quickstart)  |   [常见问题 ](http://www.jeecg.com/doc/qa) |  [视频教程](https://space.bilibili.com/454617261/channel/series)  |  [1分钟体验低代码](https://my.oschina.net/jeecg/blog/3083313) 
+
+- 敲敲云平台(零代码)：  [http://qiaoqiaoyun.com](http://qiaoqiaoyun.com)
+
+- QQ交流群 ： ⑥730954414、VUE3群683903138、⑤860162132(满)、④774126647(满)、③816531124(满)、②769925425(满)、①284271917(满)
+> ` 提醒：【QQ群是自助服务群，建议给帮助您解决问题的同学发送指定红包，表示感谢！】 `
+
+
+
+Docker启动项目
+-----------------------------------
+
+- [Docker启动单体后台](http://doc.jeecg.com/2043889)
+- [Docker启动Vue3前端](http://vue3.jeecg.com/3028878)
+
+- [Docker启动微服务后台](http://doc.jeecg.com/3043472)
+- [Docker启动Vue2前端](http://doc.jeecg.com/3043612)
 
 
 适用项目
@@ -47,26 +97,54 @@ JeecgBoot 提供了一系列`低代码模块`，实现在线开发`真正的零�
 Jeecg-Boot低代码开发平台，可以应用在任何J2EE项目的开发中，尤其适合SAAS项目、企业信息管理系统（MIS）、内部办公系统（OA）、企业资源计划系统（ERP）、客户关系管理系统（CRM）等，其半智能手工Merge的开发方式，可以显著提高开发效率70%以上，极大降低开发成本。
 
 
-
-技术文档
+技术支持
 -----------------------------------
 
-- 技术官网：  [http://www.jeecg.com](http://www.jeecg.com)
+关闭gitee的issue通道，使用中遇到问题或者BUG可以在 [Github上提Issues](https://github.com/jeecgboot/jeecg-boot/issues/new)
 
-- 在线演示 ： [Vue2版本](http://boot.jeecg.com) |  [Vue3版本](http://boot3.jeecg.com)
-
-- 开发文档：  [主项目文档](http://doc.jeecg.com) | [Vue3文档](http://vue3.jeecg.com)
-
-- 新手指南： [快速入门](http://www.jeecg.com/doc/quickstart)  |  [视频教程](https://space.bilibili.com/454617261/channel/series) |   [常见问题 ](http://www.jeecg.com/doc/qa)  |   [技术支持](http://jeecg.com/doc/help) |  [1分钟体验低代码](https://my.oschina.net/jeecg/blog/3083313)
-
-- 微服务开发：  [单体切换为微服务](http://doc.jeecg.com/2704725)
-
-- QQ交流群 ： ⑥730954414、VUE3群683903138、⑤860162132(满)、④774126647(满)、③816531124(满)、②769925425(满)、①284271917(满)
-
-> ` 提醒：【QQ群是自助服务群，建议给帮助您解决问题的同学发送指定红包，表示感谢！】 `
+官方支持： [http://jeecg.com/doc/help](http://jeecg.com/doc/help)
 
 
-为什么选择JEECG-BOOT?
+##### Star走势图
+
+[![Star History Chart](https://api.star-history.com/svg?repos=jeecgboot/jeecg-boot&type=Date)](https://star-history.com/#jeecgboot/jeecg-boot)
+
+
+
+
+后台目录结构
+-----------------------------------
+```
+项目结构
+├─jeecg-boot-parent（父POM： 项目依赖、modules组织）
+│  ├─jeecg-boot-base-core（共通模块： 工具类、config、权限、查询过滤器、注解等）
+│  ├─jeecg-module-demo    示例代码
+│  ├─jeecg-module-system  System系统管理目录
+│  │  ├─jeecg-system-biz    System系统管理权限等功能
+│  │  ├─jeecg-system-start  System单体启动项目(8080）
+│  │  ├─jeecg-system-api    System系统管理模块对外api
+│  │  │  ├─jeecg-system-cloud-api   System模块对外提供的微服务接口
+│  │  │  ├─jeecg-system-local-api   System模块对外提供的单体接口
+│  ├─jeecg-server-cloud           --微服务模块
+     ├─jeecg-cloud-gateway       --微服务网关模块(9999)
+     ├─jeecg-cloud-nacos       --Nacos服务模块(8848)
+     ├─jeecg-system-cloud-start  --System微服务启动项目(7001)
+     ├─jeecg-demo-cloud-start    --Demo微服务启动项目(7002)
+     ├─jeecg-visual
+        ├─jeecg-cloud-monitor       --微服务监控模块 (9111)
+        ├─jeecg-cloud-xxljob        --微服务xxljob定时任务服务端 (9080)
+        ├─jeecg-cloud-sentinel     --sentinel服务端 (9000)
+        ├─jeecg-cloud-test           -- 微服务测试示例（各种例子）
+           ├─jeecg-cloud-test-more         -- 微服务测试示例（feign、熔断降级、xxljob、分布式锁）
+           ├─jeecg-cloud-test-rabbitmq     -- 微服务测试示例（rabbitmq）
+           ├─jeecg-cloud-test-seata          -- 微服务测试示例（seata分布式事务）
+           ├─jeecg-cloud-test-shardingsphere    -- 微服务测试示例（分库分表）
+```
+
+
+
+
+为什么选择JeecgBoot?
 -----------------------------------
 * 1.采用最新主流前后分离框架（Springboot+Mybatis+antd），容易上手; 代码生成器依赖性低,灵活的扩展能力，可快速实现二次开发;
 * 2.支持微服务SpringCloud Alibaba(Nacos、Gateway、Sentinel、Skywalking)，提供切换机制支持单体和微服务自由切换
@@ -87,7 +165,7 @@ Jeecg-Boot低代码开发平台，可以应用在任何J2EE项目的开发中，
 * 17.支持SAAS服务模式，提供SaaS多租户架构方案。
 * 18.分布式文件服务，集成minio、阿里OSS等优秀的第三方，提供便捷的文件上传与管理，同时也支持本地存储。
 * 19.主流数据库兼容，一套代码完全兼容Mysql、Postgresql、Oracle、Sqlserver、MariaDB、达梦等主流数据库。
-* 20.集成工作流activiti，并实现了只需在页面配置流程转向，可极大的简化bpm工作流的开发；用bpm的流程设计器画出了流程走向，一个工作流基本就完成了，只需写很少量的java代码；
+* 20.集成工作流activiti、flowable，并实现了只需在页面配置流程转向，可极大的简化bpm工作流的开发；用bpm的流程设计器画出了流程走向，一个工作流基本就完成了，只需写很少量的java代码；
 * 21.低代码能力：在线流程设计，采用开源Activiti流程引擎，实现在线画流程,自定义表单,表单挂靠,业务流转
 * 22.多数据源：及其简易的使用方式，在线配置数据源配置，便捷的从其他数据抓取数据；
 * 23.提供单点登录CAS集成方案，项目中已经提供完善的对接代码
@@ -121,24 +199,24 @@ Jeecg-Boot低代码开发平台，可以应用在任何J2EE项目的开发中，
 
 - IDE(JAVA)： IDEA (必须安装lombok插件 )
 
-- IDE(前端)： IDEA 或者 WebStorm
+- IDE(前端)： Vscode、WebStorm、IDEA
 
 - 依赖管理：Maven
 
 - 缓存：Redis
 
-- 数据库脚本：MySQL5.7+  &  Oracle 11g & Sqlserver2017（默认只提供三个库脚本，其他库需要自己转）
+- 数据库脚本：MySQL5.7+  &  Oracle 11g & Sqlserver2017（其他数据库，[需要自己转](https://my.oschina.net/jeecg/blog/4905722)）
 
 
 #### 后端
 
 - 基础框架：Spring Boot 2.6.6
 
-- 微服务框架： Spring Cloud Alibaba 2021.1
+- 微服务框架： Spring Cloud Alibaba 2021.0.1.0
 
 - 持久层框架：MybatisPlus 3.5.1
 
-- 报表工具： JimuReport 1.5.0-beta
+- 报表工具： JimuReport 1.5.2
 
 - 安全框架：Apache Shiro 1.8.0，Jwt 3.11.0
 
@@ -152,19 +230,9 @@ Jeecg-Boot低代码开发平台，可以应用在任何J2EE项目的开发中，
 
 
 #### 前端
- 
- > 此处是Vue2的技术栈介绍，[Vue3版技术栈看这里](https://github.com/jeecgboot/jeecgboot-vue3)
 
-- [Vue 2.6.10](https://cn.vuejs.org/),[Vuex](https://vuex.vuejs.org/zh/),[Vue Router](https://router.vuejs.org/zh/)
-- [Axios](https://github.com/axios/axios)
-- [ant-design-vue](https://vuecomponent.github.io/ant-design-vue/docs/vue/introduce-cn/)
-- [webpack](https://www.webpackjs.com/),[yarn](https://yarnpkg.com/zh-Hans/)
-- [vue-cropper](https://github.com/xyxiao001/vue-cropper) - 头像裁剪组件
-- [@antv/g2](https://antv.alipay.com/zh-cn/index.html) - Alipay AntV 数据可视化图表
-- [Viser-vue](https://viserjs.github.io/docs.html#/viser/guide/installation)  - antv/g2 封装实现
-- eslint，[@vue/cli 3.2.1](https://cli.vuejs.org/zh/guide)
-- vue-print-nb-jeecg - 打印
-
+- Vue2版本：`Vue2.6+@vue/cli+AntDesignVue+Viser-vue+Vuex等`  [详细查看](https://github.com/jeecgboot/ant-design-vue-jeecg)
+- Vue3版本：`Vue3.0+TypeScript+Vite+AntDesignVue+pinia+echarts等新方案` [详细查看](https://github.com/jeecgboot/jeecgboot-vue3)
 
 #### 支持库
 
@@ -174,13 +242,9 @@ Jeecg-Boot低代码开发平台，可以应用在任何J2EE项目的开发中，
 |  Oracle11g   |  √   |
 |  Sqlserver2017   |  √   |
 |   PostgreSQL   |  √   |
-|   DB2、Informix   |  √   |
 |   MariaDB   |  √   |
-|  SQLite、Hsqldb、Derby、H2   |  √   |
-|   达梦、人大金仓、神通   |  √   |
-|   华为高斯、虚谷、瀚高数据库   |  √   |
-|   阿里云PolarDB、PPAS、HerdDB   |  √   |
-|  Hive、HBase、CouchBase   |  √   |
+|   达梦、人大金仓   |  √   |
+
 
 
 ## 微服务解决方案
@@ -202,7 +266,7 @@ Jeecg-Boot低代码开发平台，可以应用在任何J2EE项目的开发中，
 
 8、服务监控 SpringBootAdmin√
 
-9、链路跟踪 Skywalking   [参考文档](https://www.kancloud.cn/zhangdaiscott/jeecgcloud/1771670)
+9、链路跟踪 Skywalking   [参考文档](http://doc.jeecg.com/2350293)
 
 10、消息中间件 RabbitMQ  √
 
@@ -340,16 +404,16 @@ Jeecg-Boot低代码开发平台，可以应用在任何J2EE项目的开发中，
 │  ├─Online在线表单 - 功能已开放
 │  ├─Online代码生成器 - 功能已开放
 │  ├─Online在线报表 - 功能已开放
-│  ├─Online在线图表(商业功能)
-│  ├─Online图表模板配置(商业功能)
-│  ├─Online布局设计(商业功能)
+│  ├─Online在线图表(未开源)
+│  ├─Online图表模板配置(未开源)
+│  ├─Online布局设计(未开源)
 │  ├─多数据源管理 - 功能已开放
 ├─积木报表设计器(低代码)
 │  ├─打印设计器
 │  ├─数据报表设计
 │  ├─图形报表设计（支持echart）
-│  ├─大屏设计器(商业功能)
-│─流程模块功能 (商业功能)
+│  ├─大屏设计器(未开源)
+│─流程模块功能 (未开源)
 │  ├─流程设计器
 │  ├─表单设计器
    ├─大屏设计器
@@ -364,7 +428,7 @@ Jeecg-Boot低代码开发平台，可以应用在任何J2EE项目的开发中，
 │  └─我的抄送
 │  └─流程委派、抄送、跳转
 │  └─。。。
-│─OA办公组件 (商业功能)
+│─OA办公组件 (未开源)
 │  ├─更多功能
 │  └─。。。
 └─其他模块
